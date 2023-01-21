@@ -25,6 +25,6 @@ When a user enters an URL (Uniform Resource Locator) in the browser, the browser
 
 Diagrammatic representation: 
 
-![Diagram Assignment 1.png](/Week-1/Exercise%201.1/Diagram_Assignment_1.png)
+![Diagram Assignment 1.png](/Week-1/Exercise%201.1/Diagram-Assignment-1.png)
 
 In summary, when a user enters an URL in the browser, the browser uses the DNS to resolve the domain name to an IP address, sends a request to the server at that IP address for the resource specified in the URL, receives the resource and renders it for the user to view. This process, starting from the user entering the URL in the browser to the browser displaying the final webpage, happens in a matter of milliseconds. Caching mechanism makes sure that the same resources don't need to be fetched multiple times, resulting in faster browsing.

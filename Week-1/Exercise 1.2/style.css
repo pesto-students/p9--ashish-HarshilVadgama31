@@ -88,4 +88,43 @@
     .la-ellipsis-h {
       margin-right: 10px;
     }
-  
+
+    .playlist {
+        margin: 10px;
+      }
+    
+      .now-playing-footer{
+        /* gap: 550px; */
+        display: flex;
+        position: fixed;
+        left: 8px;
+        bottom: 8px;
+        width: 99.15vw;
+        height: 100px;
+        background-color: #43689c;
+        color: white;
+        text-align: center;
+      }
+    
+      .song-footer-column-1{
+        display: flex;
+        width: 100%;
+      }
+    
+      .album-art-playing img{
+        padding: 10px;
+        width: 80px;
+        height: 80px;
+      }
+    
+      .song-playing-title {
+        padding-top: 5px;
+        width: 110px;
+      }
+    
+      .play-pause-footer-column-2 {
+        display:flex;
+        margin-top: 40px;
+        justify-content: space-around;
+        width: 100%;
+      }  

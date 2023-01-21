@@ -23,7 +23,7 @@ When a user enters an URL (Uniform Resource Locator) in the browser, the browser
 - The browser receives the response and starts rendering the resource for the user to view. The type of resource, such as HTML, CSS, or JavaScript, determines how the browser renders it. For example, if the resource is an HTML file, the browser parses the HTML code and creates a Document Object Model (DOM) to represent the structure of the page. It then uses the CSS styles and JavaScript scripts to apply the layout and interactivity to the page.
 - It's also worth mentioning that the browser caches some of the resources it fetches, such as images, stylesheets, and scripts, to make the process faster in the future. When the browser sends a request for a resource, it includes a "cache-control" header that tells the server whether the browser has a cached copy of the resource and if the cached copy is still fresh. If the server returns a "304 Not Modified" status code, the browser knows it can use the cached copy instead of requesting the resource again.
 
-Diagrammatic representation: 
+- Diagrammatic representation: 
 
 ![Diagram Assignment 1.png](/Week-1/Exercise%201.1/Diagram-Assignment-1.png)
 

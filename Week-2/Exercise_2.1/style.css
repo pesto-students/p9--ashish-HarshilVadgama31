@@ -1,0 +1,53 @@
+.main {
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+	/* background-color: aquamarine; */
+	align-items: center;
+    width: 100%;
+}
+
+img{
+	margin: 10px;
+}
+
+.main-title {
+    display: flex;
+    justify-content: center;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.content {
+	display: flex;
+	align-content: flex-start;
+	flex-flow: wrap;
+	gap: 30px;
+}
+
+
+.form-section {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	width: 330px;
+}
+
+.form-fields {
+    flex-direction: column;
+	display: flex;
+	align-content: flex-start;
+    gap: 2px;
+}
+section {
+	width: 330px;
+}
+p {
+	margin-top: 0px;
+}
+img {
+	width: 300px;
+	height: 300px;
+}
+
+

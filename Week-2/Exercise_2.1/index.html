@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<head>
+    <link href="style.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+
+<body>
+    <div class="main">
+        <div class="main-box">
+            <div class="main-title">
+                <h1>New York Times</h1>
+            </div>
+            <div class="content">
+                <section>
+                    <article>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry's standard dummy text
+                            ever since the 1500s, when an unknown printer took a galley of type
+                            and scrambled it to make a type specimen book.
+                        </p>
+                        <img src="./assets/Christmas.png" alt="Christmas-Ball-image" />
+                    </article>
+                </section>
+                <section class="related-articles">
+                    <article>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry's standard dummy text
+                            ever since the 1500s, when an unknown printer took a galley of type
+                            and scrambled it to make a type specimen book.
+                        </p>
+                    </article>
+                    <article>
+                        <h4><a>Other article</a></h4>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry's standard dummy text
+                            ever since the 1500s, when an unknown printer took a galley of type
+                            and scrambled it to make a type specimen book.
+                        </p>
+                    </article>
+                    <article>
+                        <h4><a>Other article</a></h4>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry's standard dummy text
+                            ever since the 1500s, when an unknown printer took a galley of type
+                            and scrambled it to make a type specimen book.
+                        </p>
+                    </article>
+                </section>
+            </div>
+            <div class="form-section flex">
+                <Section>
+                    <form action="" method="POST" class="form-fields">
+                        <label>Title
+                            <input type="radio" name="title" value="Mr">Mr
+                            <input type="radio" name="title" value="Mrs">Mrs
+                            <input type="radio" name="title" value="Miss">Miss</label><br />
+                        <label>First name <input type="text"></label><br />
+                        <label>Last name <input type="text"></label><br />
+                        <label>Email <input type="email"></label><br />
+                        <label>Phone number <input type="tel" pattern="[0-9]{1,3}-[0-9]{10}"
+                                title="Enter Country Code-10 digit Phone Number"></label><br />
+                        <label>Password <input type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                                title="Must contain at least 1 number and 1 uppercase and lowercase letter, and at least 8 or more characters"></label><br />
+                        <label>Confirm password <input type="password"></label><br />
+                        <label>Country
+                            <select name="country">
+                                <option value="Canada">Canada</option>
+                                <option value="India">India</option>
+                                <option value="Australia">Australia</option>
+                            </select></label><br />
+                        <label><input type="checkbox" name="terms-agreement">I agree to the <a href="#"
+                                target="_blank">terms and conditionss</a></label><br />
+                        <button type="submit" formaction="#">Submit</button>
+                    </form>
+                </Section>
+            </div>
+        </div>
+    </div>
+</body>
